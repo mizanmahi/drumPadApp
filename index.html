@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Drum Pad</title>
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="keys">
+            <li class="keys__key" data-key="65"><kbd >a</kbd> <span class="sound">clap</span></li>
+            <li class="keys__key" data-key="83"><kbd >s</kbd> <span class="sound">crash</span></li>
+            <li class="keys__key" data-key="68"><kbd >d</kbd> <span class="sound">hihat</span></li>
+            <li class="keys__key" data-key="70"><kbd >f</kbd> <span class="sound">kick</span></li>
+            <li class="keys__key" data-key="71"><kbd >g</kbd> <span class="sound">openhat</span></li>
+            <li class="keys__key" data-key="72"><kbd >h</kbd> <span class="sound">perc</span></li>
+            <li class="keys__key" data-key="74"><kbd >j</kbd> <span class="sound">shaker</span></li>
+            <li class="keys__key" data-key="75"><kbd >k</kbd> <span class="sound">snare</span></li>
+            <li class="keys__key" data-key="76"><kbd >l</kbd> <span class="sound">tom</span></li>
+        </ul> 
+        
+        <audio src="./sounds/clap-808.wav" data-key="65"></audio>
+        <audio src="./sounds/clap-fat.wav" data-key="83"></audio>
+        <audio src="./sounds/hihat-808.wav" data-key="68"></audio>
+        <audio src="./sounds/kick-808.wav" data-key="70"></audio>
+        <audio src="./sounds/openhat-808.wav" data-key="71"></audio>
+        <audio src="./sounds/perc-808.wav" data-key="72"></audio>
+        <audio src="./sounds/shaker-shuffle.wav" data-key="74"></audio>
+        <audio src="./sounds/snare-808.wav" data-key="75"></audio>
+        <audio src="./sounds/tom-808.wav" data-key="76"></audio>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>   
