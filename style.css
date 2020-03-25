@@ -105,8 +105,8 @@ footer h2 a {
       footer{
         position: absolute;
         bottom: 5px;
-        left: 80%;
-        /* transform: translateX(-50%); */
+        left: 75%;
+        transform: translateX(0%);
       }
       footer h2 {
         color: #fff;
