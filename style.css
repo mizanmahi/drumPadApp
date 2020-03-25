@@ -83,3 +83,33 @@ footer h2 {
 footer h2 a {
     color: #fbc531;
 }
+
+@media only screen and (max-width: 1100px) {
+    .keys {
+        flex-wrap: wrap;
+    }
+  }
+
+  .keys__key{
+    margin-top: 5px;
+  }
+
+  @media only screen and (max-width: 436px) {
+    .keys {
+        flex-wrap: wrap;
+    }
+    .keys__key{
+        margin-top: 5px;
+        width: 80px;
+      }
+      footer{
+        position: absolute;
+        bottom: 5px;
+        left: 80%;
+        /* transform: translateX(-50%); */
+      }
+      footer h2 {
+        color: #fff;
+        font-size: .5rem;
+    }
+  }
