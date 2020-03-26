@@ -30,6 +30,7 @@
     text-transform: uppercase;
     transition: all 0.1s;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 kbd {
@@ -39,6 +40,7 @@ kbd {
 .sound {
     font-size: .8rem;
     color: rgba(248, 197, 55, 0.5);
+    cursor: context-menu;
 }
 
 .playing {
